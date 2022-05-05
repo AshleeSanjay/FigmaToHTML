@@ -18,4 +18,58 @@
         <img src="/images/imgCover.png" alt="img" class="feature-image">    
     </div>
 </body>
+<script>
+    let total =10;
+    const value = 10;
+    const name = "John"; //string
+    const age = 30; //number
+    const isActive = true; //boolean
+    const fruits = ['apple','banana','orange']; //array
+    const user = {
+        name : 'John',
+        age : 30,
+        isActive : true,
+        fruits: ['apple','banana','orange'],
+        sayHi() {
+            console.log('Hi');
+        }
+    };// object - should have key and value for all the variables but not the function
+
+    const sayHi = () => {
+        console.log('Hi there! My name is $() and I am $() years old.I am a $(gender)');
+    };
+
+    const lenFruits = ( fruits = []) => {
+        console.log('Hi there! I have $(fruits.length) fruits.');
+    };
+
+    const priceFruits = [
+        {
+            name: 'apple',
+            price: 10
+        },
+        {
+            name:'banana',
+            price:20
+        },
+        {
+            name:'orange',
+            price:30
+        }
+    ]
+    sayHi();
+    lenFruits(['apple','banana','orange']);
+    priceFruits.map((priceFruits,index) => {
+        console.log('');
+    })
+    total = total + value;
+    console.log({
+        total,
+        name,
+        age,
+        isActive,
+        fruits,
+        user
+    });
+</script>
 </html>
