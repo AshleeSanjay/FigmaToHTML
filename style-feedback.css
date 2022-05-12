@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D5FAFC;   
+}
+
+.app-sample {    
+    width: 220vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+}
+
+.section-heading {    
+    width: 445px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.section-quotes {
+    width: 140px; 
+    margin: 65px 0px 0px 165px;
+}
+
+.section-title {
+    position: static;
+    width: 500px;
+    height: 128px;    
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt';
+    margin-left: 260px;
+    margin-right: 735px; 
+}
+
+.section-desp {  
+    font-family: 'Inter',sans-serif;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 260px;
+    margin-right: 735px;
+
+}
+
+.section-testimonial3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    position: absolute;
+    width: 350px;
+    height: 468px;
+    left: 355px;
+    top: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.testimonial-image {
+    height: 40px;
+    width: 140px;
+    left: 32px;
+    top: 32px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 286px;
+    height: 332px;
+    left: 32px;
+    top: 104px; 
+    margin: 32px 0px;
+}
+
+.section-feedbackPerson {  
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+    width: 254px;
+    height: 332px;  
+    left: 32px;
+    margin: 0px 16px;
+    align-self: center;
+}
+
+.section-feedback {
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-feedback-testimonial1 {
+    position: static;
+    width: 349px;
+    height: 128px;    
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;   
+}
+
+.section-persondetails {
+    display: flex;
+    flex-direction: column;
+    width: 147px;
+    margin: 24px 0px;
+}
+
+.section-quotes-testimonial {
+    height: 14px;
+    width: 16px;
+}
+
+.section-testimonial2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;    
+    position: absolute;
+    width: 350px;
+    height: 276px;
+    left: 735px;
+    top: 540px;    
+    background: #FFFFFF;
+}
+
+.section-testimonial1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    position: absolute;
+    width: 445px;
+    height: 340px;
+    left: 735px;
+    top: 168px;
+    background: #FFFFFF;
+}
+
+.section-name {
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    margin: 0px 0px 10px 0px;
+}
+
+.section-designation {
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    color: grey;
+    width: 200px;
+}
